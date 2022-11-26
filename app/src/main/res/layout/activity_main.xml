@@ -27,79 +27,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.694"
+                app:layout_constraintHorizontal_bias="0.148"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.254" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="121dp"
-                android:layout_height="52dp"
-                android:layout_marginTop="28dp"
-                android:text="Button"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.793"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.529" />
-
-            <com.santalu.maskara.widget.MaskEditText
-                android:id="@+id/dig1"
-                android:layout_width="154dp"
-                android:layout_height="84dp"
-                android:gravity="center"
-                android:inputType="number"
-                android:textColor="@color/black"
-                android:textSize="54sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.221"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.542"
-                android:ellipsize="end"
-                app:mask="_"
-                app:maskCharacter="_"
-                app:maskStyle="completable" />
-
-            <TextView
-                android:id="@+id/va1"
-                android:layout_width="143dp"
-                android:layout_height="68dp"
-                android:gravity="center"
-                android:hint="5 - 2"
-                android:inputType="number|text"
-                android:text=""
-                android:textColor="@color/black"
-                android:textSize="54sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.167"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.253" />
-
-            <TextView
-                android:id="@+id/va2"
-                android:layout_width="143dp"
-                android:layout_height="68dp"
-                android:gravity="center"
-                android:hint="6 - 2"
-                android:inputType="number|text"
-                android:text=""
-                android:textColor="@color/black"
-                android:textSize="54sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.167"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.389" />
+                app:layout_constraintVertical_bias="0.024" />
 
             <TextView
                 android:id="@+id/A2"
@@ -112,10 +43,137 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.694"
+                app:layout_constraintHorizontal_bias="0.726"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.39" />
+                app:layout_constraintVertical_bias="0.024" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="409dp"
+                android:layout_height="445dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.374">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="412dp"
+                    android:layout_height="255dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.666"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.336"
+                    app:srcCompat="@drawable/abc" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="121dp"
+                    android:layout_height="52dp"
+                    android:text="Button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.793"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.92" />
+
+                <TextView
+                    android:id="@+id/va1"
+                    android:layout_width="317dp"
+                    android:layout_height="36dp"
+                    android:gravity="start"
+                    android:hint="  5 - 2             ?"
+                    android:inputType="number|text"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.576"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.286" />
+
+                <TextView
+                    android:id="@+id/va2"
+                    android:layout_width="319dp"
+                    android:layout_height="36dp"
+                    android:gravity="start"
+                    android:hint="  3 ** 3           ?"
+                    android:inputType="number|text"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.595"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.379" />
+
+                <TextView
+                    android:id="@+id/va3"
+                    android:layout_width="321dp"
+                    android:layout_height="36dp"
+                    android:gravity="start"
+                    android:hint="  B - C             ?"
+                    android:inputType="number|text"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.613"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.463" />
+
+                <TextView
+                    android:id="@+id/va4"
+                    android:layout_width="318dp"
+                    android:layout_height="36dp"
+                    android:gravity="start"
+                    android:hint="  A - 4             ?"
+                    android:inputType="number|text"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.582"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.56" />
+
+                <com.santalu.maskara.widget.MaskEditText
+                    android:id="@+id/dig1"
+                    android:layout_width="154dp"
+                    android:layout_height="84dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="54sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.149"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.927"
+                    app:mask="_"
+                    app:maskCharacter="_"
+                    app:maskStyle="completable" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
